@@ -1,10 +1,10 @@
-num1 = 10
-num2 = 5
+number1 = 10
+number2 = 5
 
-sum = num1 + num2
-subtraction = num1 - num2
-multiplication = num1 * num2
-print(sum)
-print(subtraction)
+sum_result = number1 + number2
+diff_result = number1 - number2
+product_result = number1 * number2
 
-print(multiplication)
+print(f"Sum of {number1} and {number2} is {sum_result}")
+print(f"Difference of {number1} and {number2} is {diff_result}")
+print(f"Product of {number1} and {number2} is {product_result}")
